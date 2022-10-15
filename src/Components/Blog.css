@@ -1,0 +1,123 @@
+.blog-total-container{
+    width:87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2cm;
+}
+.blog-items-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.blog-main-image{
+height: 6.7cm;
+min-width: 100%;
+border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.blog-main-item{
+    width: 70%;
+    text-align: left;
+}
+.blog-sub-items{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.blog-sub-image{
+    width: 7cm;
+    height: 3.2cm;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.blog-sub-items-container{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.blog-sub-items-heading{
+    margin-top: 0%;
+    text-align: left;
+}
+.blog-items-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blog-btn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+}
+.blog-main-items-heading{
+    margin-bottom: 0%;
+    text-align: left;
+}
+.blog-heading-para{
+    width: 55%;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+.blog-header{
+    font-size: 3rem;
+    margin-bottom: 0.15cm;
+}
+.blog-header-underline{
+    width: 5cm;
+    height: 0.25rem;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+}
+
+@media (max-width:1450px){
+    .blog-total-container{
+        width:95%;
+    }
+}
+@media (max-width:1200px){
+    .blog-header{
+        font-size: 2.5rem;
+    }
+    .blog-heading-para{
+        width: 80%;
+        font-size: 1.05rem;
+    }
+}
+@media (max-width:1000px){
+    .blog-items-container{
+        flex-direction: column;
+    }
+    .blog-main-item{
+        width: 100%;
+    }
+    .blog-sub-items-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+        gap: 2rem;
+    }
+    .blog-sub-items-heading{
+        font-size: 1.05rem;
+    }
+}
+@media (max-width:1000px){
+    .blog-heading-para{
+        width: 95%;
+    }
+}
+@media (max-width:500px){
+    .blog-header{
+        font-size: 2.3rem;
+    }
+    .blog-heading-para{
+        line-height: 0.8cm;
+    }
+}

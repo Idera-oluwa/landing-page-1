@@ -1,0 +1,125 @@
+.reviews-total-container{
+    background-color: black;
+    padding-bottom:7rem;
+    padding-top: 2rem;
+    margin-top: 1cm;
+}
+.reviews-container{
+    color: white;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reviews-paragraph{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-angle-right{
+    padding-left: 2cm;
+  }
+  .info{
+      text-align: left;
+  }
+  h3{
+     text-align: center;
+  }
+  .reviews-image-container{
+      background-color: red;
+      height: 4cm;
+      border-radius: 50%;
+      width: 4cm;
+      margin-left: 5cm;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image{
+      margin-top: 0.5cm;
+      border-radius: 50%;
+      width: 4cm;
+      height: 4cm;
+      position: relative;
+      margin-left: -0.3cm;
+      margin-top: 0.1cm;
+      display: block;
+    margin-right: auto
+  }
+  .reviews-body-total-container{
+     margin: 0 auto;
+     margin-top: 4rem;
+     max-width: 1500px;
+     width: 100%;
+     height: 450px;
+     text-align: center;
+     justify-content: center;
+     display: flex;
+     background-color: white;
+     padding-top: 1cm;
+     
+  }
+  .swiper-container{
+      min-width:100%;
+  }
+  .swiper{
+      width: 10cm;
+  }
+  .reviews-star{
+      color: red;
+     margin-right: auto;
+     display: flex;
+     flex-direction: row;
+     gap: 0.25rem;
+     text-align: left;
+  }
+  .reviews-word{
+      text-align: left;
+      color: red;
+  }
+  .reviews-heading{
+      font-size: 3rem;
+      margin-bottom:0.15cm;
+  }
+  .reviews-heading-underline{
+    width: 5cm;
+    height: 0.25rem;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+  }
+
+  @media (max-width:1450px){
+    .reviews-container{
+        width:95%;
+    }
+}
+@media (max-width:1200px){
+    .reviews-heading{
+        font-size: 2.5rem;
+    }
+    .reviews-paragraph{
+        width: 80%;
+    }
+}
+@media (max-width:1000px){
+    .reviews-paragraph{
+        width: 95%;
+    }
+}
+@media (max-width:500px){
+    .reviews-heading{
+        font-size: 2.3rem;
+    }
+    .reviews-paragraph{
+        line-height: 0.8cm;
+    }
+    .swiper{
+        width: 95%;
+    }
+    .swiper-button-next{
+      visibility: hidden;
+    }
+    .swiper-button-prev{
+       visibility: hidden;
+    }
+}

@@ -1,0 +1,87 @@
+.chefs-total-container{
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+}
+.chefs-data-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.chefs-data{
+    width: 100%;
+    height: 9cm;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.chefs-image{
+    width:100%;
+    height: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.chefs-name-title{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.507);
+    width: 100%;
+    bottom: 0%;
+    z-index: 100;
+}
+.chef-name{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: rgb(252, 229, 229);
+}
+.chef-title{
+    margin-top: 0%;
+    color: rgb(250, 239, 239);
+}
+.chef-text{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;
+}
+.chef-heading{
+    font-size: 3rem;
+    margin-bottom: 0.15cm;
+}
+.chef-heading-underline{
+    width: 3cm;
+height: 0.2rem;
+background-color: red;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0.5cm;
+}
+@media (max-width:1450px){
+    .chefs-total-container{
+        width:95%;
+    }
+}
+@media (max-width:1200px){
+    .chef-heading{
+        font-size: 2.5rem;
+    }
+    .chef-text{
+        width: 80%;
+    }
+}
+@media (max-width:1000px){
+    .chef-text{
+        width: 95%;
+    }
+}
+@media (max-width:500px){
+    .chef-heading{
+        font-size: 2.3rem;
+    }
+    .chef-text{
+        line-height: 0.8cm;
+    }
+}

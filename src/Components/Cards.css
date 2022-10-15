@@ -1,0 +1,102 @@
+.cards-total-container{
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3cm;
+}
+.cards-item-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap:1rem;
+}
+.card-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgb(245, 236, 236);
+}
+.cards-header{
+    font-size: 3rem;
+    margin-bottom: 0.15cm;
+}
+.card-headint-text{
+text-align: left;
+margin-left: 1rem;
+}
+.cards-header-underline{
+    width: 4cm;
+    height: 0.25rem;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1cm;
+}
+.cards-header-text{
+    width: 50%;
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+.card-text{
+    text-align: left;
+    margin-top: 0%;
+}
+.card-icon{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem 1.8rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.281);
+    color: red;
+}
+.blue{
+    color: blue;
+    background-color: rgba(0, 0, 255, 0.253);
+}
+.yellow{
+    color: yellow;
+    background-color: rgba(255, 255, 0, 0.24);
+}
+.card-heading{
+    margin-top: 0.5rem;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+@media (max-width:1450px){
+    .cards-total-container{
+        width:95%;
+    }
+}
+@media (max-width:1200px){
+    .cards-header{
+        font-size: 2.5rem;
+    }
+    .cards-header-text{
+        width: 80%;
+    }
+}
+@media (max-width:1000px){
+    .cards-header-text{
+        width: 95%;
+    }
+}
+@media (max-width:500px){
+    .cards-header{
+        font-size: 2.3rem;
+    }
+    .cards-header-text{
+        line-height: 0.7cm;
+    }
+}
