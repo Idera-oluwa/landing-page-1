@@ -7,7 +7,7 @@ return(
     <div className='app-feature-container'>
         <img src='images/phone-2.jpg' alt='' className='feature-image'/>
         <div className='feature-info-container'>
-            <h1>Get More Features With Our Mobile Application</h1>
+            <h1 className='feature-heading'>Get More Features With Our Mobile Application</h1>
             <p className='feature-para'>Veniam laboris adipisicing ea officia minim consequat nostrud consectetur eiusmod ad anim aute mollit. 
                 Quis magna pariatur enim ex dolor aliquip dolor non et sint ut occaecat pariatur anim. 
                 Voluptate commodo et quis minim ex veniam consectetur sint aliqua culpa.</p>
