@@ -110,6 +110,9 @@
     .reviews-paragraph{
         width: 95%;
     }
+    .reviews-body-total-container{
+        padding: 0%;
+    }
 }
 @media (max-width:500px){
     .reviews-heading{
