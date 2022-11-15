@@ -1,5 +1,6 @@
 .blog-total-container{
-    width:87%;
+    width: 90vw;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top:3cm;
@@ -10,12 +11,15 @@
     gap: 2rem;
 }
 .blog-main-image{
-height: 6.7cm;
+height: 6.2cm;
 min-width: 100%;
 border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+.blog-main-items-text{
+    font-size: 0.4cm;
 }
 .blog-main-item{
     width: 70%;
@@ -27,8 +31,8 @@ border-bottom-right-radius: 5px;
     gap: 1rem;
 }
 .blog-sub-image{
-    width: 7cm;
-    height: 3.2cm;
+    width: 6.4cm;
+    height: 2.7cm;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -43,6 +47,7 @@ border-bottom-right-radius: 5px;
 .blog-sub-items-heading{
     margin-top: 0%;
     text-align: left;
+    font-size: 0.45cm;
 }
 .blog-items-btn{
     display: flex;
@@ -53,20 +58,22 @@ border-bottom-right-radius: 5px;
     background-color: transparent;
     border: none;
     color: blue;
+    cursor: pointer;
 }
 .blog-main-items-heading{
     margin-bottom: 0%;
     text-align: left;
+    font-size: 0.45cm;
 }
 .blog-heading-para{
     width: 55%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
 }
 .blog-header{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.15cm;
 }
 .blog-header-underline{

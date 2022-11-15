@@ -1,5 +1,6 @@
 .chefs-total-container{
-    width: 87%;
+    width: 90vw;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2cm;
@@ -46,10 +47,10 @@
     width: 45%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .chef-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.15cm;
 }
 .chef-heading-underline{

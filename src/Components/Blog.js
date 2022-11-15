@@ -15,7 +15,7 @@ function Blog() {
                     <div className='blog-main-item'>
                         <img src='images/roasted-pheasant.webp' alt='' className='blog-main-image'/>
                         <h3 className='blog-main-items-heading'>Cillum amet proident nisi qui enim laboris laborum cupidatat cillum reprehenderit.</h3>
-                        <p>Occaecat in id nisi duis laboris Lorem deserunt minim dolor.
+                        <p className='blog-main-items-text'>Occaecat in id nisi duis laboris Lorem deserunt minim dolor.
                             Aliquip nostrud tempor nostrud consectetur velit.
                             Velit sint labore est consectetur deserunt.</p>
                             <div className='blog-items-btn'>

@@ -1,12 +1,13 @@
 .cards-total-container{
-    width: 87%;
+    width: 90vw;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3cm;
 }
 .cards-item-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
     gap:1rem;
 }
 .card-item-container{
@@ -14,20 +15,21 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: rgb(245, 236, 236);
 }
 .cards-header{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.15cm;
 }
 .card-headint-text{
 text-align: left;
 margin-left: 1rem;
+font-size: 0.95rem;
 }
 .cards-header-underline{
-    width: 4cm;
-    height: 0.25rem;
+    width: 3cm;
+    height: 0.22rem;
     background-color: red;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +37,7 @@ margin-left: 1rem;
 }
 .cards-header-text{
     width: 50%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
@@ -43,14 +45,15 @@ margin-left: 1rem;
 .card-text{
     text-align: left;
     margin-top: 0%;
+    font-size: 0.9rem;
 }
 .card-icon{
     font-size: 2rem;
     display: flex;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
-    padding: 1rem 1.8rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.8rem 1.7rem;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;

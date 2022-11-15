@@ -6,7 +6,8 @@
 }
 .reviews-container{
     color: white;
-    width: 87%;
+    width: 90vw;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,6 +15,7 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1rem;
 }
 .fa-angle-right{
     padding-left: 2cm;
@@ -26,18 +28,17 @@
   }
   .reviews-image-container{
       background-color: red;
-      height: 4cm;
+      height: 3.5cm;
       border-radius: 50%;
-      width: 4cm;
-      margin-left: 5cm;
+      width: 3.5cm;
     margin-left: auto;
     margin-right: auto;
   }
   .image{
       margin-top: 0.5cm;
       border-radius: 50%;
-      width: 4cm;
-      height: 4cm;
+      width: 3.5cm;
+      height: 3.5cm;
       position: relative;
       margin-left: -0.3cm;
       margin-top: 0.1cm;
@@ -47,14 +48,18 @@
   .reviews-body-total-container{
      margin: 0 auto;
      margin-top: 4rem;
-     max-width: 1500px;
-     width: 100%;
+     width: 90vw;
+    max-width: 1170px;
      height: 450px;
      text-align: center;
      justify-content: center;
      display: flex;
      background-color: white;
+     font-size: 0.9rem;
      padding-top: 1cm;
+     border-radius: 10px;
+     padding-left: 0.5cm;
+     padding-right: 0.5cm;
      
   }
   .swiper-container{
@@ -76,7 +81,7 @@
       color: red;
   }
   .reviews-heading{
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom:0.15cm;
   }
   .reviews-heading-underline{

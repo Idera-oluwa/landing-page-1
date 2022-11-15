@@ -1,11 +1,12 @@
 .menu-container{
-    width: 87%;
+    width: 90vw;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3cm;
 }
 .menu-heading{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.15cm;
 }
 .menu-heading-underline{
@@ -20,7 +21,8 @@ margin-bottom: 0.5cm;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     margin-bottom: 1cm;
 }
 .menuitems-container{
@@ -49,6 +51,7 @@ margin-bottom: 0.5cm;
 .price-star-button{
     display: flex;
     flex-direction: row;
+    font-size: 0.4cm;
     align-items: center;
 }
 .menuitem-price{
@@ -64,8 +67,8 @@ margin-bottom: 0%;
     background-color: white;
     border-color: red;
     cursor: pointer;
-    width: 6rem;
-    height: 1cm;
+    width: 5.5rem;
+    height: 0.8cm;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -99,7 +102,7 @@ background-color: red;
     background-color: white;
     border: none;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -111,8 +114,8 @@ background-color: red;
 background-color: red;
 }
 .category-icon{
-    width: 1cm;
-    height: 1cm;
+    width: 0.8cm;
+    height: 0.8cm;
     border-radius: 50%;
 }
 @media (max-width:1450px){
@@ -134,7 +137,6 @@ background-color: red;
 @media (max-width:1000px){
     .menu-text{
         width: 95%;
-        font-size: 1.1rem;
     }
     .category-buttons-container{
         display: none;
